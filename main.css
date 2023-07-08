@@ -1,0 +1,171 @@
+*
+{
+    margin: 0px;
+}
+
+body{
+    background-color: #FFCD9E;
+    width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.head1  {
+
+width: 500px;
+color: #282828;
+font-size: 30px;
+ font-family: Inter;
+ font-weight: 700;
+ line-height: 40px;
+ 
+ word-wrap: break-word;
+ margin-top: 60px;
+ margin-left: 90px;
+}
+
+.head2{
+width: 390px;
+height: 61px;
+word-wrap: break-word;
+color: #484848;
+font-size: 15px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+margin-left: 90px;
+margin-top: 20px;
+letter-spacing: 0.5px;
+
+
+}
+.head3 {
+    color: #282828;
+font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 800;
+margin-left: 90px;
+margin-top: 30px;
+}
+.img1 {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 450px;
+    height: 430px;
+    display: inline-flex;
+    padding: 5px 29.61px 66.155px 41.87px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fname {
+    margin-left: 90px;
+    margin-top: 25px;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border:solid 3px  black;
+    font-weight: 600;
+
+}
+.button {
+    margin-left: 15px;
+    width: 140px;
+    height: 45px;
+    border-radius: 6px;
+    background: #282828;
+    color: white;
+    border:solid 3px  #282828;
+    font-weight: 500;
+}
+.data{
+    width: 300px;
+    font-size: 16px;
+    margin-left: 120px;
+    margin-top: 15px;
+    color: #FFF;
+    font-weight: 400;
+line-height: 1.5;
+}
+
+.footer1 {
+    background: var(--the-black, #282828);
+    width: 100%;
+    display: flex;
+height: 180px;
+margin-top: 125px;
+position: fixed;
+  bottom: 0;
+}
+.first{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 1.5;
+margin-left: 150px;
+display: flex;
+width: 216px;
+height: 36px;
+flex-direction: column;
+flex-shrink: 0;
+letter-spacing: 0.5px;
+}
+
+.second{
+    margin-top: 30px;
+    color: white;
+    text-align: right;
+    float: right;
+    position: absolute;
+    right: 180px;
+    width: 300px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.third{
+
+    margin-top: 112px;
+    color: white;
+    text-align: right;
+    float: right;
+    position: absolute;
+    right: 180px;
+    width: 300px;
+    padding: 10px;
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 0.5px;
+}
+
+.img2 {
+    position: absolute;
+    float: right;
+    margin-top: 85px;
+    right: 180px;
+    width: 50px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .img2 img {
+    width: 20px;
+    height: 20px;
+  }
+
+input.fname::placeholder {
+    width: 400px;
+    color: #999; /* Change the color of the placeholder text */
+    font-size: 14px; /* Change the font size of the placeholder text */
+    padding-left: 17px; /* Add margin to the left of the placeholder text */
+  }
